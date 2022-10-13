@@ -1,0 +1,34 @@
+.pestControl {
+  background: transparent linear-gradient(180deg, #e2ecff 0%, #fcfcfc 100%) 0%
+    0% no-repeat padding-box;
+
+  width: 100vw;
+  height: 100%;
+}
+.pestControl__body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: auto;
+}
+.pestChart {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  /* border: 2px dotted darkcyan; */
+}
+
+.pestChart > h5 {
+  border: 2px dotted darkcyan;
+  /* border-bottom: 2px dotted darkcyan; */
+  padding: 20px;
+}
+
+.pestHeading {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: 400;
+}

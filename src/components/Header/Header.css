@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  height: 120px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 7px 6px #00000021;
+}
+.header > a {
+  text-decoration: none;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  flex: 0.4 1;
+  justify-content: center;
+}
+
+.header__left > h3 {
+  margin-left: 16px;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.4 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__right > a {
+  text-decoration: none;
+  color: #0f62fe;
+}
+
+.brandLogo {
+  width: 120px;
+  height: 120px;
+}
+.logoText {
+  color: #949da6;
+  letter-spacing: 1.95px;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+.loginButton {
+  width: 181px;
+  height: 45px;
+  /* background-color: #0f62fe; */
+  background: #0f62fe 0% 0% no-repeat padding-box;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-width: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

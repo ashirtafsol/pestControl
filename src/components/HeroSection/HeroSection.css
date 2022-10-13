@@ -1,0 +1,102 @@
+.heroSection {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+
+.heroSection__bg {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+}
+
+.heroHeading {
+  color: white;
+  font-size: 64px;
+  font-weight: lighter;
+  /* line-break:; */
+}
+.heroHeading > span {
+  font-weight: 600;
+  font-size: 76px;
+  display: block;
+  line-height: 64px;
+}
+
+.sndHeader {
+  /* position: absolute; */
+  width: 100vw;
+  height: 80vh;
+  display: block;
+  /* border-radius: 0px 0px 57px 57px; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  /* text-align: center; */
+  background-image: linear-gradient(
+      rgba(15, 98, 254, 1),
+      rgba(15, 98, 254, 0.52)
+    ),
+    var(--img);
+  background-size: cover;
+}
+
+.heroSection__content {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.heroText {
+  color: white;
+}
+
+.heroSection__left {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.heroSection__right {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.heroContact {
+  border: 5px;
+  width: 208px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.heroSection__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.heroSection__inputs > input {
+  padding: 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: 1px solid #dcdcdc;
+}
+
+.heroInput {
+  margin-top: 4px;
+}
+.heroSection__inputs > button {
+  /* width: 181px; */
+  height: 45px;
+  background: #0f62fe 0% 0% no-repeat padding-box;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-width: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 16px;
+}

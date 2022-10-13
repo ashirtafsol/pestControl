@@ -1,0 +1,40 @@
+.pestBio {
+  width: 100vw;
+  height: 100%;
+}
+
+.pestBio__body {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px 0;
+}
+.pestBio__body:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pestBioImg {
+  width: 409px;
+  height: 448px;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.pestBio__left {
+  flex: 0.3;
+}
+
+.pestBio__right {
+  flex: 0.6;
+}
+.pestBio__right > h3 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.pestBio__right > p {
+  line-height: 1.5em;
+}

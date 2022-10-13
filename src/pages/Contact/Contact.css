@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* position: relative; */
+}
+
+.contact__body {
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contactBody__left {
+  width: 50%;
+}
+.contactBody__left > h5 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.contact__tip {
+  display: flex;
+  align-items: center;
+}
+.contact__tip > svg {
+  margin: 8px;
+}
+.contactBtn {
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.rightBigImg {
+  width: 450px;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.rightSmallImg {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid white;
+  margin: 0 8px;
+}
+
+.contactBody__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallImgs {
+  margin-top: -20%;
+  margin-left: -10%;
+}

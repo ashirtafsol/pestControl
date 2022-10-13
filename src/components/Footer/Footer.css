@@ -1,0 +1,49 @@
+.footer {
+  background-color: #3e3c3c;
+  width: 100vw;
+  height: 100%;
+  color: white;
+}
+
+.footer__body {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+
+.footerSection__logo {
+  display: flex;
+}
+
+.footerLogo {
+  width: 80px;
+  height: 80px;
+}
+
+.footerSection {
+  flex: 0.2;
+}
+
+.footerContacts {
+  display: flex;
+  align-items: center;
+}
+.footerContacts > svg {
+  margin-right: 16px;
+}
+
+.footer__bottom {
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons > svg {
+  margin: 4px;
+}
+
+.footerSection > h5 {
+  margin-bottom: 10%;
+}
