@@ -43,7 +43,7 @@ function HeroSection() {
                   options={options}
                 />
               </div>
-              <button>Search</button>
+              <button className="heroBtnSearch">Search</button>
             </div>
           </div>
         </div>

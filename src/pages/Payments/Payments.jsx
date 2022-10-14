@@ -5,7 +5,7 @@ function Payments() {
   return (
     <div className="payments">
       <div className="payments__table">
-        <table class="table-auto">
+        <table class="table-auto paymentTable">
           <thead>
             <tr>
               <th className="tableHead">Packages</th>

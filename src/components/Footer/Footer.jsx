@@ -10,6 +10,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import "./Footer.css";
+import logo from "../../assets/images/logo.png";
 
 function Footer() {
   return (
@@ -17,11 +18,7 @@ function Footer() {
       <div className="footer__body">
         <div className="footerSection">
           <div className="footerSection__logo">
-            <img
-              className="footerLogo"
-              src="https://media.istockphoto.com/vectors/army-radar-icon-vector-isolated-contour-symbol-illustration-vector-id1205504208?b=1&k=20&m=1205504208&s=612x612&w=0&h=Rf05JN8wCfTNj_9bw6pO-wvR52_Fy7wLKqIGMJCloyU="
-              alt=""
-            />
+            <img className="footerLogo" src={logo} alt="" />
             {/* <h3 className="logoText">Pest Radar</h3> */}
           </div>
           <div>

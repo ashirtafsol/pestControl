@@ -36,6 +36,6 @@ td {
   box-shadow: 0px 3px 6px #00000029;
 }
 
-tr:last-child {
+.paymentTable > tr:last-child {
   background-color: rgba(15, 98, 254, 0.2);
 }

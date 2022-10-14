@@ -8,21 +8,31 @@ function PestControl() {
         <h3 className="pestHeading">Pests And Pest Control Introduction</h3>
 
         <div className="pestChart">
-          <h5>Ants</h5>
-          <h5>Bats</h5>
-          <h5>Bed Bugs</h5>
-          <h5>Bees</h5>
-          <h5>Cockroaches</h5>
-          <h5>Fleas</h5>
-          <h5>Flies</h5>
-          <h5>Mice</h5>
-          <h5>Mosquitoes</h5>
-          <h5>Pigeons</h5>
-          <h5>Rats</h5>
-          <h5>Snakes</h5>
-          <h5>Spiders</h5>
-          <h5>Termites</h5>
-          <h5>Wasps</h5>
+          <table class="table-auto">
+            <tbody>
+              <tr>
+                <td>Ants</td>
+                <td>Bats</td>
+                <td>Bed Bugs</td>
+                <td>Bees</td>
+                <td>Cockroaches</td>
+              </tr>
+              <tr>
+                <td>Fleas</td>
+                <td>Flies</td>
+                <td>Mice</td>
+                <td>Mosquitoes</td>
+                <td>Pigeons</td>
+              </tr>
+              <tr>
+                <td>Rats</td>
+                <td>Snakes</td>
+                <td>Spiders</td>
+                <td>Termites</td>
+                <td>Wasps</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <div className="">

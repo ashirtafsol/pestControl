@@ -1,0 +1,19 @@
+.cartPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItems {
+  display: flex;
+  border: 1px solid lightblue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cartItemName {
+  flex: 0.5;
+}
+.cartImg {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}

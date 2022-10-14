@@ -1,10 +1,11 @@
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex: 1;
-  height: 120px;
+  height: 138px;
+  align-items: center;
   background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 7px 6px #00000021;
+  /* box-shadow: 0px 7px 6px #00000021; */
 }
 .header > a {
   text-decoration: none;
@@ -12,8 +13,13 @@
 .header__left {
   display: flex;
   align-items: center;
-  flex: 0.4 1;
+  flex: 0.5 1;
   justify-content: center;
+}
+
+.pageLink {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .header__left > h3 {
@@ -22,7 +28,7 @@
 
 .header__right {
   display: flex;
-  flex: 0.4 1;
+  flex: 0.5 1;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -32,8 +38,9 @@
 }
 
 .brandLogo {
-  width: 120px;
-  height: 120px;
+  width: 298px;
+  height: 98px;
+  object-fit: contain;
 }
 .logoText {
   color: #949da6;
@@ -47,6 +54,7 @@
   height: 45px;
   /* background-color: #0f62fe; */
   background: #0f62fe 0% 0% no-repeat padding-box;
+  box-shadow: 0 8px 8px -4px lightblue;
   color: white;
   font-size: large;
   font-weight: bolder;
